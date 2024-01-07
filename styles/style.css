@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+/* Banner styles */
+.banner-head{
+    margin: 50px 140px 0px 140px;
+    align-items: center;
+    background-image: url('../images/Banner\ Image.png');
+    max-width: 1320px;
+    height: 600px;
+    border: 0;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);    */
+}
+.banner-text1{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 178px;
+}
+.banner-text2{
+    color: #FFF;
+text-align: center;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px;
+}
