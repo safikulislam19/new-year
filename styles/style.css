@@ -4,6 +4,8 @@
 }
 /* Banner styles */
 .banner-head{
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
     margin-left: 140px;
     margin-right: 140px;
@@ -30,8 +32,10 @@
     font-weight: 900;
     line-height: 95px;
 }
-/* Section new-year-offer */
+/* Section new-year-offer style*/
 .new-year-offer{
+    display: flex;
+    flex-direction: column;
     align-items: center;
     margin-top: 60px;
     margin-left:270px;
@@ -65,8 +69,10 @@
     margin-top: 48px;
 }
 
-/*  */
+/* Welcome banner Style */
 .welcome-banner{
+    display: flex;
+    flex-direction: column;
     margin-top: 60px;
     margin-left:140px;
     margin-right: 140px;
@@ -75,6 +81,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     max-width: 1320px;
+    height: 487px;
     border: 0;
     border-radius: 16px;
 }
@@ -101,10 +108,10 @@ padding: 70px 100px;
     letter-spacing: 7.04px;
 }
 .welcome-text2{
-    color: rgba(255, 255, 255, 0.80);
-    font-size: 16px;
+    color:rgba(255, 255, 255, 0.80);
+    font-size: 18px;
     font-weight: 400;
-    line-height: 30px; 
+    line-height: 30px;
 }
 .join-btn{
     color: #FFF;
@@ -119,3 +126,51 @@ padding: 70px 100px;
 .join-btn:hover{
     cursor: pointer;
 }
+/* protfolio style */
+.protfolio{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 140px;
+
+}
+.protfolio-text{
+    display: inline-block;
+    width: 70%;
+    margin-bottom: 10px;
+    
+}
+.protfolio-text1{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+}
+.protfolio-text > h3{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.protfolio-text2{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.protfolio-items{
+    display: flex;
+    /* flex-direction: column; */
+}
+.items-demo{
+    justify-content: space-between;
+    margin: 10px;
+}
+.items-demo > img{
+    width: 350px;
+    height: 300px;
+    position: relative;
+}
+/*  */
+
+
