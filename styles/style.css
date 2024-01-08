@@ -215,12 +215,15 @@ br{
     background: #e0dede;
     padding-left: 10px;
 }
-#btn-subscribe{
+.btn-subscribe{
     width: 120px;
     height: 50px;
     border: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+}
+.btn-subscribe:hover{
+    cursor: pointer;
 }
 /* Footer style */
 footer{
@@ -281,4 +284,7 @@ hr{
     font-size: 24px;
     font-weight: 500;
     line-height: normal;
+}
+.unsubscribe:hover{
+    cursor: pointer;
 }
