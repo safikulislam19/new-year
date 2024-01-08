@@ -256,6 +256,8 @@ br{
     /* display: table; */
     width: 400px;
     height: 50px;
+    margin-left: 260px;
+    float: left;
     border: 0;
     border-radius: 50px 0px 0px 50px;
     background: #e0dede;
@@ -264,6 +266,7 @@ br{
 .btn-subscribe{
     width: 120px;
     height: 50px;
+    float: left;
     border: 0;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
